@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#nav, #home {
+    border: 3px solid orangered;
+    height: 100vh;
+    color: rgb(75, 55, 48);    
+}
+
+.row {
+    border: 5px solid green;
+    height: 100vh;
+}
