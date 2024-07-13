@@ -1,12 +1,39 @@
 body {
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+i {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Games', sans-serif;
+}
+
+#icon > h1 {
+    margin: auto;
+}
+
+.navig > * {
+    margin: auto;
+}
+
+#nav > #logout {
+    margin-top: auto;
+}
+
+#nav {
+    background: rgb(46,61,128);
+    background: linear-gradient(99deg, rgba(46,61,128,1) 0%, rgba(41,13,68,1) 50%, rgba(46,61,128,1) 100%);
+    color: whitesmoke !important; /* highest priority */
 }
 
 #nav, #main {
     border: 3px solid orangered;
-    height: 100vh;
-    color: rgb(75, 55, 48);    
+    min-height: 100vh;
+    color: rgb(75, 55, 48);
 }
 
 #icon {
@@ -24,9 +51,56 @@ body {
 #design {
     height: 70%;
     border: 3px solid rgb(158, 109, 158);
+    background-color: rgb(55, 38, 71);
+}
+
+#main-img {
+    width: 100%;
+    height: 100%;
+}
+
+#ping-pong {
+    border: 4px solid rgb(0, 247, 255);
+    background-color: aquamarine;
+    /* width: 33%; */
+    height: 100%;
+}
+
+#XO {
+    /* width: 33%; */
+    border: 4px solid rgb(0, 255, 0);
+    background-color: rgb(0, 102, 255);
+    height: 100%;
+}
+
+#more {
+    background-color: blanchedalmond;
+}
+
+.img-fluid {
+    height: 100%;
+    width: 100%;
 }
 
 #games {
     height: 30%;
     border: 3px solid rgb(71, 4, 71);
+}
+
+#description {
+    color: whitesmoke;
+    font-family: 'Games', sans-serif;
+    margin-top: 8%;
+}
+
+#main-header {
+    font-size: 60px;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+span {
+    color: blueviolet;
 }
