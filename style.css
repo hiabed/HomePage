@@ -18,3 +18,13 @@ body {
     height: 70px;
     border: 2px solid green;
 }
+
+#design {
+    height: 70%;
+    border: 3px solid rgb(158, 109, 158);
+}
+
+#games {
+    height: 30%;
+    border: 3px solid rgb(71, 4, 71);
+}
