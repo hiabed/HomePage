@@ -3,13 +3,18 @@ body {
     overflow: hidden;
 }
 
-#nav, #home {
+#nav, #main {
     border: 3px solid orangered;
     height: 100vh;
     color: rgb(75, 55, 48);    
 }
 
-.row {
-    border: 5px solid green;
-    height: 100vh;
+#icon {
+    height: 130px;
+    border: 2px solid green;
+}
+
+.navig {
+    height: 70px;
+    border: 2px solid green;
 }
