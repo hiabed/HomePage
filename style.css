@@ -3,6 +3,11 @@ body {
     /* overflow: hidden; */
 }
 
+#contain {
+    margin-top: 15%;
+    /* border: 3px solid yellow; */
+}
+
 i {
     color: whitesmoke;
     font-size: 30px;
@@ -12,7 +17,7 @@ h1 {
     font-family: 'Games', sans-serif;
 }
 
-#icon > h1 {
+#icon > h1 {      /* direct child */
     margin: auto;
 }
 
@@ -20,8 +25,9 @@ h1 {
     margin: auto;
 }
 
-#nav > #logout {
-    margin-top: auto;
+#logout {
+    /* margin-top: 100%; */
+    /* border: 3px solid green; */
 }
 
 #nav {
@@ -31,26 +37,33 @@ h1 {
 }
 
 #nav, #main {
-    border: 3px solid orangered;
-    min-height: 100vh;
+    /* border: 3px solid orangered; */
+    height: 100vh;
     color: rgb(75, 55, 48);
 }
 
 #icon {
-    text-align: center;
+    /* text-align: center; */
+    margin: auto;
     height: 130px;
-    border: 2px solid green;
+    width: 200px;
+    /* border: 2px solid green; */
 }
 
 .navig {
-    text-align: center;
+    margin: auto;
+    /* text-align: center; */
     height: 70px;
-    border: 2px solid green;
+    width: 200px;
+    /* border: 2px solid green; */
 }
 
 #design {
     height: 70%;
-    border: 3px solid rgb(158, 109, 158);
+    /* border: 3px solid rgb(158, 109, 158); */
+}
+
+#main {
     background-color: rgb(55, 38, 71);
 }
 
@@ -60,31 +73,35 @@ h1 {
 }
 
 #ping-pong {
-    border: 4px solid rgb(0, 247, 255);
-    background-color: aquamarine;
+    /* border: 4px solid rgb(0, 247, 255); */
+    /* background-color: aquamarine; */
     /* width: 33%; */
     height: 100%;
+    margin-left: 0;
 }
 
 #XO {
     /* width: 33%; */
-    border: 4px solid rgb(0, 255, 0);
-    background-color: rgb(0, 102, 255);
+    /* border: 4px solid rgb(0, 255, 0); */
+    /* background-color: rgb(0, 102, 255); */
+    margin-left: 0;
     height: 100%;
 }
 
 #more {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
+    color: whitesmoke;
 }
 
-.img-fluid {
+#img1, #img2 {
     height: 100%;
     width: 100%;
+    /* width: fit-content; */
 }
 
 #games {
     height: 30%;
-    border: 3px solid rgb(71, 4, 71);
+    /* border: 3px solid rgb(71, 4, 71); */
 }
 
 #description {
@@ -94,7 +111,7 @@ h1 {
 }
 
 #main-header {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 p {
