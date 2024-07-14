@@ -11,10 +11,6 @@ body {
 i {
     color: whitesmoke;
     font-size: 30px;
-    
-}
-
-i {
     filter: drop-shadow(0px 5px 5px blueviolet);
 }
 
@@ -23,7 +19,13 @@ h1 {
 }
 
 #icon > h1 {      /* direct child */
-    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    border: 3px solid violet;
+    border-radius: 80%;
+    box-shadow: 0px 0px 20px violet;
+    font-family: 'Summer Surfing Serif', sans-serif;
+    font-size: 40px;
 }
 
 .navig > * {
@@ -39,21 +41,22 @@ h1 {
     background: rgb(46,61,128);
     background: linear-gradient(99deg, rgba(46,61,128,1) 0%, rgba(41,13,68,1) 50%, rgba(46,61,128,1) 100%);
     color: whitesmoke !important; /* highest priority */
-    /* box-shadow: 0px 0px 20px yellow; */
+    box-shadow: 0px 0px 20px violet;
+    border: 2px solid violet;
 }
 
-#nav, #main {
-    /* border: 3px solid orangered; */
+#main {
+    /* border: 3px solid violet; */
     height: 100vh;
-    color: rgb(75, 55, 48);
+    /* color: rgb(75, 55, 48); */
+    /* box-shadow: 0px 0px 20px violet; */
+    background-color: rgb(55, 21, 75) !important;
 }
 
 #icon {
-    /* text-align: center; */
     margin: auto;
     height: 130px;
     width: 200px;
-    /* border: 2px solid green; */
 }
 
 .navig {
@@ -121,7 +124,8 @@ h1 {
 
 #games {
     height: 30%;
-    /* border: 3px solid rgb(71, 4, 71); */
+    /* border: 1px solid violet; */
+    /* box-shadow: 0px 0px 20px violet; */
 }
 
 #description {
@@ -147,8 +151,13 @@ a {
     color: whitesmoke;
 }
 
-a:hover h3, a:hover h3 i {
-    color: blue; /* Change the color on hover */
+a:hover h3, a:hover i {
+    color: blueviolet; /* Change the color on hover */
+    font-size: 30px;
+}
+
+a:hover h3 i {
+    font-size: 35px;
 }
 
 
