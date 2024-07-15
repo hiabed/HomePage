@@ -52,7 +52,7 @@ h1 {
     height: 100vh;
     /* color: rgb(75, 55, 48); */
     /* box-shadow: 0px 0px 20px violet; */
-    background-color: rgb(55, 21, 75) !important;
+    background-color: rgb(0, 21, 52);
 }
 
 #icon > img {
@@ -78,10 +78,6 @@ h1 {
 #design {
     height: 70%;
     /* border: 3px solid rgb(158, 109, 158); */
-}
-
-#main {
-    background-color: rgb(55, 38, 71);
 }
 
 #main-img {
