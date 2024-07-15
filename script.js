@@ -1,13 +1,12 @@
-const link = document.querySelector("a");
+const link = document.querySelectorAll("a");
 
-function linkBehavior(event)
+for (let i = 0; i < link.length ;i++)
 {
-    event.preventDefault();
-    link.style.backgroundColor = "#3f2455";
-    link.style.borderRadius = "10%";
-    link.style.boxShadow = "0px 0px 10px #9477fa"
-    link.style.paddingTop = "5px";
-    link.style.height = "50px";
-}
-
-link.addEventListener("click", linkBehavior);
+    link[i].addEventListener("click", (event)=>
+    {
+        for (let i = 0; i < link.length; i++)
+            link[i].classList.remove('link');
+        event.preventDefault();
+        link[i].classList.add('link');
+    });
+};
