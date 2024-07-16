@@ -18,23 +18,12 @@ h1 {
     font-family: 'Games', sans-serif;
 }
 
-/* #icon > h1 {      direct child
-    margin-top: auto;
-    text-align: center;
-    border: 3px solid violet;
-    border-radius: 80%;
-    box-shadow: 0px 0px 20px violet;
-    font-family: 'Summer Surfing Serif', sans-serif;
-    font-size: 40px;
-} */
-
 #logout {
     position: relative;
     top: 38%;
     margin: auto;
     height: 70px;
     width: 200px;
-    /* border: 3px solid green; */
 }
 
 #nav {
@@ -48,7 +37,6 @@ h1 {
 }
 
 #main {
-    /* border: 3px solid violet; */
     height: 100vh;
     /* color: rgb(75, 55, 48); */
     /* box-shadow: 0px 0px 20px violet; */
@@ -57,16 +45,22 @@ h1 {
 
 #icon > img {
     /* border-radius: 80%; */
-    height: 180px;
+    height: 140px;
     width: 200px;
+    border: 2px solid #9477fa;
+    box-shadow: 0px 0px 10px #9477fa;
+    border-radius: 50%;
+    padding-bottom: 30px;
+    margin-top: 20px;
 }
 
 #icon {
-    padding-top: 5%;
+    /* padding-top: 2%; */
     margin: auto;
     /* border: 2px solid red; */
     height: 130px;
     width: 200px;
+    /* border: 2px solid red; */
 }
 
 .navig {
@@ -77,7 +71,7 @@ h1 {
 
 #design {
     height: 70%;
-    /* border: 3px solid rgb(158, 109, 158); */
+    /* border: 3px solid yellow; */
 }
 
 #main-img {
@@ -90,60 +84,56 @@ h1 {
 }
 
 #ping-pong {
-    margin-top: 5%;
     /* border: 4px solid rgb(0, 247, 255); */
-    /* background-color: aquamarine; */
-    /* width: 33%; */
-    height: 60%;
-    width: 15%;
+    height: 170px;
+    width: 250px;
     margin-left: 0;
 }
 
 #XO {
-    margin-top: 5%;
-    /* width: 60%; */
     /* border: 4px solid rgb(0, 255, 0); */
     margin-left: 0;
-    height: 60%;
-    width: 15%;
+    height: 170px;
+    width: 250px;
 }
 
 #more {
-    /* background-color: blanchedalmond; */
     color: whitesmoke;
-    margin-top: 5%;
-    /* width: 60%; */
-    /* border: 4px solid rgb(0, 255, 0); */
     margin-left: 0;
-    height: 60%;
-    width: 30%;
-    /* font-size: small; */
+    height: 170px;
+    width: fit-content;
+    /* border: 3px solid green; */
 }
 
 #img1, #img2 {
-    height: 100%;
-    width: 100%;
-    /* border: 3px solid red; */
+    height: 170px;
+    width: 250px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 2px violet;
 }
 
 #games {
     height: 30%;
-    /* border: 1px solid violet; */
-    /* box-shadow: 0px 0px 20px violet; */
-}
-
-#description {
-    color: whitesmoke;
-    font-family: 'Games', sans-serif;
-    margin-top: 8%;
+    /* border: 3px solid blue; */
 }
 
 #main-header {
     font-size: 50px;
 }
 
+#games > h1 {
+    color: whitesmoke;
+    /* border-radius: 5px; */
+}
+
 p {
     font-family: sans-serif;
+}
+
+#description {
+    color: whitesmoke;
+    font-family: 'Games', sans-serif;
+    margin-top: 8%;
 }
 
 span {
