@@ -45,13 +45,15 @@ h1 {
 
 #icon > img {
     /* border-radius: 80%; */
-    height: 140px;
-    width: 200px;
+    height: 112px;
+    width: 135px;
     border: 2px solid #9477fa;
     box-shadow: 0px 0px 10px #9477fa;
     border-radius: 50%;
     padding-bottom: 30px;
-    margin-top: 20px;
+    margin: auto;
+    position: relative;
+    top: 20px;
 }
 
 #icon {
@@ -71,16 +73,17 @@ h1 {
 
 #design {
     height: 70%;
+    
     /* border: 3px solid yellow; */
 }
 
 #main-img {
     width: 800px;
-    height: 400px;
-    margin-top: 5%;
+    height: 440px;
+    /* margin-top: 5%; */
     /* border: 2px solid red; */
-    /* min-width: 100%;
-    min-height: 100%; */
+    position: absolute;
+    bottom: 510px;
 }
 
 #ping-pong {
@@ -136,6 +139,45 @@ p {
     margin-top: 8%;
 }
 
+#description  p {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: rgb(207, 206, 206);
+}
+
+/* play Button */
+
+#play-block {
+    position: relative;
+    bottom: 50px;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+#play-button {
+    font-size: 20px;
+    /* padding: auto; */
+    background-color: #6d349c;
+    box-shadow: 0px 0px 10px violet;
+    border: 1px solid rgb(255 225 255);
+    font-family: sans-serif;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+#play-icon {
+    font-size: 50px;
+    /* padding-top: 3px; */
+    /* border: 2px solid yellow; */
+    width: fit-content;
+    position: relative;
+    bottom: 46px;
+    left: 127px;
+}
+
+/* end of button */
+
 span {
     color: blueviolet;
 }
@@ -167,4 +209,23 @@ a:hover h3 i {
     box-shadow: 0px 0px 10px #9477fa;
     padding-top:  5px;
     height: 50px;
+}
+
+#profile-img {
+    border: 1px solid #9c949c;
+    box-shadow: 0px 0px 10px violet;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    /* top: 46px; */
+    /* margin-right: 2%;*/
+}
+
+#profile-img > i {
+    position: relative;
+    left: 29px;
+    top: 24px;
+    font-size: 50px;
 }
