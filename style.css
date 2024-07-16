@@ -28,18 +28,17 @@ h1 {
 
 #nav {
     margin-top: 0;
-    background: rgb(46,61,128);
-    background: linear-gradient(99deg, rgba(46,61,128,1) 0%, rgba(41,13,68,1) 50%, rgba(46,61,128,1) 100%);
-    color: whitesmoke !important; /* highest priority */
-    box-shadow: inset 0 0 10px 0px whitesmoke;
+    background-color: rgb(10 19 57);
+    /* background: linear-gradient(99deg, rgba(46, 61, 128, 1) 0%, rgba(41, 13, 68, 1) 50%, rgba(46, 61, 128, 1) 100%); */
+    color: whitesmoke !important;
+    box-shadow: inset 0 0 3px 0px whitesmoke;
     height: 100vh;
-    /* border: 1px solid violet; */
 }
 
 #main {
     height: 100vh;
-    /* color: rgb(75, 55, 48); */
-    /* box-shadow: 0px 0px 20px violet; */
+    padding-left: 4%;
+    padding-bottom: 2%;
     background-color: rgb(0, 21, 52);
 }
 
@@ -89,6 +88,7 @@ h1 {
     height: 170px;
     width: 250px;
     margin-left: 0;
+    margin-right: 4%;
 }
 
 #XO {
@@ -96,6 +96,7 @@ h1 {
     margin-left: 0;
     height: 170px;
     width: 250px;
+    margin-right: 3%;
 }
 
 #more {
@@ -111,6 +112,7 @@ h1 {
     width: 250px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 20px 2px violet;
+    border-radius: 10%;
 }
 
 #games {
@@ -197,19 +199,11 @@ a:hover h3 i {
     font-size: 35px;
 }
 
-/* #home > a {
-    background-color: #3f2455;
-    border-radius: 5%;
-    box-shadow: 0px 0px 10px #9477fa;
-    padding-top:  5px;
-    height: 50px;
-} */
-
 .link {
-    background-color: #3f2455;
+    background-color: #6d349c;
     border-radius: 5%;
-    box-shadow: 0px 0px 10px #9477fa;
-    padding-top:  5px;
+    box-shadow: 0px 0px 10px 4px #6d349c;
+    padding-top: 5px;
     height: 50px;
 }
 
