@@ -78,12 +78,10 @@ h1 {
 }
 
 #main-img {
-    width: 800px;
-    height: 440px;
-    /* margin-top: 5%; */
-    /* border: 2px solid red; */
+    width: 47%;
+    height: 50%;
     position: absolute;
-    bottom: 510px;
+    bottom: 50%;
 }
 
 #ping-pong {
@@ -151,7 +149,8 @@ p {
     position: relative;
     bottom: 50px;
     margin: 0;
-    width: fit-content;
+    /* width: fit-content; */
+    max-width: 185px;
     height: fit-content;
 }
 
@@ -164,16 +163,20 @@ p {
     font-family: sans-serif;
     border-radius: 20px;
     color: whitesmoke;
+    text-align: start;
+}
+
+#play-block button {
+    padding-left: 25px;
 }
 
 #play-icon {
     font-size: 50px;
-    /* padding-top: 3px; */
-    /* border: 2px solid yellow; */
     width: fit-content;
     position: relative;
     bottom: 46px;
-    left: 127px;
+    left: 112px;
+    cursor: pointer;
 }
 
 /* end of button */
