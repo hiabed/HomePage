@@ -16,6 +16,7 @@ i {
 
 h1 {
     font-family: 'Games', sans-serif;
+    font-size: 2.5vw;
 }
 
 #logout {
@@ -23,7 +24,7 @@ h1 {
     top: 38%;
     margin: auto;
     height: 70px;
-    width: 200px;
+    width: 100%;
 }
 
 #nav {
@@ -44,30 +45,31 @@ h1 {
 
 #icon > img {
     /* border-radius: 80%; */
-    height: 112px;
-    width: 135px;
+    height: 90%;
+    width: 70%;
     border: 2px solid #9477fa;
     box-shadow: 0px 0px 10px #9477fa;
     border-radius: 50%;
-    padding-bottom: 30px;
-    margin: auto;
+    padding-bottom: 18%;
     position: relative;
-    top: 20px;
+    top: 15%;
+    margin: auto;
 }
 
 #icon {
     /* padding-top: 2%; */
-    margin: auto;
+    /* margin: auto; */
     /* border: 2px solid red; */
-    height: 130px;
-    width: 200px;
+    height: 13%;
+    width: 80%;
+    margin: auto;
     /* border: 2px solid red; */
 }
 
 .navig {
     margin: auto;
     height: 70px;
-    width: 200px;
+    width: 100%;
 }
 
 #design {
@@ -120,9 +122,9 @@ h1 {
     /* border: 3px solid blue; */
 }
 
-#main-header {
+/* #main-header {
     font-size: 50px;
-}
+} */
 
 #games > h1 {
     color: whitesmoke;
@@ -139,17 +141,17 @@ p {
     margin-top: 8%;
 }
 
-#description  p {
+#description p {
     font-family: sans-serif;
-    font-weight: lighter;
     color: rgb(207, 206, 206);
+    font-size: 1.5vw;
 }
 
 /* play Button */
 
 #play-block {
     position: relative;
-    bottom: 50px;
+    bottom: 0%;
     margin: 0;
     /* width: fit-content; */
     max-width: 185px;
@@ -168,7 +170,7 @@ p {
 }
 
 #play-block button {
-    padding-left: 25px;
+    padding-left: 11%;
 }
 
 #play-icon {
@@ -199,12 +201,20 @@ a:hover h3 i {
     font-size: 35px;
 }
 
+a h3 {
+    margin: 0 auto;
+    width: 85%;
+    font-size: 2vw;
+}
+
 .link {
     background-color: #6d349c;
     border-radius: 5%;
     box-shadow: 0px 0px 10px 4px #6d349c;
     padding-top: 5px;
     height: 50px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #profile-img {
